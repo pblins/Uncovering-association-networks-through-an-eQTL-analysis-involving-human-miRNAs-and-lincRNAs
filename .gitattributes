@@ -1,1 +1,2 @@
 additional_files/Additional_file_3_table_s3_lincrna_mapped_snps.csv filter=lfs diff=lfs merge=lfs -text
+additional_files/Additional_file_3_table_S3.csv filter=lfs diff=lfs merge=lfs -text
