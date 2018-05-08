@@ -1,6 +1,0 @@
-rs_id,chromosome,snp_position,gene_symbol,effect_size,p_adjust,tissue,mirna,gwas_id,gwas_phenotype
-rs1051424,17,58024324,RPS6KB1,0.172578,2.22867e-05,Muscle_Skeletal,miR-129-5p,23251661,obesity
-rs11191548,10,104846178,NT5C2,0.162107,5.65517e-05,Whole_Blood,miR-1-3p/206,21572416,blood pressure
-rs11191548,10,104846178,NT5C2,0.248854,7.60096e-05,Esophagus_Muscularis,miR-1-3p/206,21572416,blood pressure
-rs11191548,10,104846178,NT5C2,0.47089,3.60954e-05,Testis,miR-1-3p/206,21572416,blood pressure
-rs7132908,12,50263148,FAIM2,-0.216941,3.03914e-05,Testis,miR-326,26604143,childhood body mass index
