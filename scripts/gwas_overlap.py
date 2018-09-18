@@ -5,7 +5,7 @@ import sys
 snp_gwas = dict()
 
 ######################## OUTLINE #########################
-# THIS SCRIPT OVELAPS THE SIGNIFICANT SNPS WITH		  # 
+# THIS SCRIPT OVELAPS THE SIGNIFICANT SNPS WITH 	# 
 # GWAS DATA						  #
 ##########################################################
 
