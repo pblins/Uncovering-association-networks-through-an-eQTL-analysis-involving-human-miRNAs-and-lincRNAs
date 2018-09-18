@@ -5,14 +5,14 @@ import sys
 snp_gwas = dict()
 
 ######################## OUTLINE #########################
-# THIS SCRIPT OVELAPS THE SIGNIFICANT SNPS WITH 		 # 
-# GWAS DATA												 #
+# THIS SCRIPT OVELAPS THE SIGNIFICANT SNPS WITH		  # 
+# GWAS DATA						  #
 ##########################################################
 
 ######################## PARAMS ##########################
-# INPUT 1: GWAS DATA FILE 								 #
-# INPUT 2: SIGNIFICANT SNPS FILE						 #
-# OUTPUT: OVERLAPPING RESULT FILE 						 #
+# INPUT 1: GWAS DATA FILE				  #
+# INPUT 2: SIGNIFICANT SNPS FILE			  #
+# OUTPUT: OVERLAPPING RESULT FILE			  #
 ##########################################################
 
 GWAS_FILE = sys.argv[1]
