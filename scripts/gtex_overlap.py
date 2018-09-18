@@ -9,7 +9,7 @@ from os.path import isfile, join
 ##########################################################
 
 ######################## PARAMS ##########################
-# INPUT 1: CATALOG FILE					#
+# INPUT 1: CATALOG FILE 				  #
 # INPUT 2: GTEX eQTL DATA PATH				  #
 # INPUT 3: OUTPUT PATH					  #
 # OUTPUT: ONE FILE PER TISSUE WITH THE RESULT OF	  #
