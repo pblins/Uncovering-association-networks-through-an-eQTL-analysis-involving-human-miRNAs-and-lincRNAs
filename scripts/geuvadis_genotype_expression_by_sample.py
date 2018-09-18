@@ -6,15 +6,15 @@ from genotype import get_snp_genotype
 
 ######################## OUTLINE #########################
 # THIS SCRIPT MAPS GEUVADIS DATA TO SNP RS ID AND        #
-# USES A MYSQL DATABASE CREATED OVER GEUVADIS DATA TO	 #
-# GENERATE AN OUTPUT FILE WITH GENOTYPE INFO		 #
+# USES A MYSQL DATABASE CREATED OVER GEUVADIS DATA TO	  #
+# GENERATE AN OUTPUT FILE WITH GENOTYPE INFO		  #
 ##########################################################
 
 ######################## PARAMS ##########################
-# INPUT 1: SNP CATALOG FILE				 #
-# INPUT 2: SAMPLE ID FILE				 #
-# INPUT 3: OUTPUT PATH					 #
-# OUTPUT: GENOTYPE GENE EXPRESSION BY SAMPLE		 #
+# INPUT 1: SNP CATALOG FILE				  #
+# INPUT 2: SAMPLE ID FILE				  #
+# INPUT 3: OUTPUT PATH					  #
+# OUTPUT: GENOTYPE GENE EXPRESSION BY SAMPLE		  #
 ##########################################################
 
 DB = connect()
