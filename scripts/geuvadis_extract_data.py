@@ -3,14 +3,14 @@
 import sys
 
 ######################## OUTLINE #########################
-# THIS SCRIPT MAP GEUVADIS DATA TO SNPS RS ID AND  		 #
-# GENERATE AN OUTPUT FILE WITH GENOTYPE INFO			 #
+# THIS SCRIPT MAP GEUVADIS DATA TO SNPS RS ID AND  	 #
+# GENERATE AN OUTPUT FILE WITH GENOTYPE INFO		 #
 ##########################################################
 
 ######################## PARAMS ##########################
-# INPUT 1: RS ID MAP FILE 								 #
-# INPUT 2: GEUVADIS VCF FILE 							 #
-# OUTPUT: GENOTYPE BY SNP FILE 							 #
+# INPUT 1: RS ID MAP FILE 				 #
+# INPUT 2: GEUVADIS VCF FILE 				 #
+# OUTPUT: GENOTYPE BY SNP FILE 				 #
 ##########################################################
 
 RS_ID_FILE = sys.argv[1]
