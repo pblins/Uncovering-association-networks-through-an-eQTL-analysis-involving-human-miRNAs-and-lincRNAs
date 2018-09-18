@@ -5,8 +5,8 @@ from os import listdir
 from os.path import isfile, join
 
 ######################## OUTLINE #########################
-# THIS SCRIPT OVELAPS THE SIGNIFICANT SNPS WITH           # 
-# PHARMGKB DATA                                           #
+# THIS SCRIPT OVELAPS THE SIGNIFICANT SNPS WITH          # 
+# PHARMGKB DATA                                          #
 ##########################################################
 
 ######################## PARAMS ##########################
