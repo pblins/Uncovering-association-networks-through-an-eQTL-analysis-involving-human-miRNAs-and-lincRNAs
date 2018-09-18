@@ -5,15 +5,15 @@ from os import listdir
 from os.path import isfile, join
 
 ######################## OUTLINE #########################
-# THIS SCRIPT OVELAPS THE SNP CATALOG WITH GTEX DATA 	 #
+# THIS SCRIPT OVELAPS THE SNP CATALOG WITH GTEX DATA 	  #
 ##########################################################
 
 ######################## PARAMS ##########################
-# INPUT 1: CATALOG FILE 								 #
-# INPUT 2: GTEX eQTL DATA PATH 							 #
-# INPUT 3: OUTPUT PATH 									 #
-# OUTPUT: ONE FILE PER TISSUE WITH THE RESULT OF		 #
-# OVERLAPPING											 #
+# INPUT 1: CATALOG FILE					  #
+# INPUT 2: GTEX eQTL DATA PATH				  #
+# INPUT 3: OUTPUT PATH					  #
+# OUTPUT: ONE FILE PER TISSUE WITH THE RESULT OF	  #
+# OVERLAPPING						  #
 ##########################################################
 
 snps = dict()
