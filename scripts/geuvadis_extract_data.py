@@ -10,7 +10,7 @@ import sys
 ######################## PARAMS ##########################
 # INPUT 1: RS ID MAP FILE 				 #
 # INPUT 2: GEUVADIS VCF FILE 				 #
-# OUTPUT: GENOTYPE BY SNP FILE 				 #
+# OUTPUT: GENOTYPE BY SNP FILE				 #
 ##########################################################
 
 RS_ID_FILE = sys.argv[1]
