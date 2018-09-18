@@ -9,9 +9,9 @@ import sys
 ##########################################################
 
 ######################## PARAMS ##########################
-# INPUT 1: BED FILE OF DBSNP DATA						 #
+# INPUT 1: BED FILE OF DBSNP DATA                        #
 # INPUT 2: BED FILE OF REGULATORY REGION TO INTERSECT    #
-# INPUT 3: NAME OF OUTPUT FILE 						     #
+# INPUT 3: NAME OF OUTPUT FILE                           #
 # OUTPUT : CATALOG FILE                                  #
 ##########################################################
 
