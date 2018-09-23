@@ -5,13 +5,16 @@ __To generate the SNP catalog (step 1 of paper workflow), please follow the foll
 * CG-2. Run `catalog.py` using dbSNP and Regulatory Region (miRNA, miRNA targets, lincRNA) BED files as input.
 
 __To generate the gEUVADIS analysis (step 2 of paper workflow), please follow the following instructions:__
-* GE-1. Run *geuvadis_extract_data.py* using the vcf file (genotype) and rs id map file (both obtained from gEUVADIS portal) as input.
+* GE-1. Run `geuvadis_extract_data.py` using the vcf file (genotype) and rs id map file (both obtained from gEUVADIS portal) as input.
 * GE-2. Create an SQL database using gEUVADIS gene expression data. (cols: sampleid, gene_id, gene_exp)
-* GE-3. Run *geuvadis_genotype_expression_by_sample.py* using GE-1 and CG-2 outputs as input. Also name the path were the output files will be saved.
-* GE-4. Run geuvadis_eqtl.py using the directory path of GE-3 output files as input.
+* GE-3. Run `geuvadis_genotype_expression_by_sample.py` using GE-1 and CG-2 outputs as input. Also name the path were the output files will be saved.
+* GE-4. Run `geuvadis_eqtl.py` using the directory path of GE-3 output files as input.
 
 __To generate the GTEx analysis (step 2 of paper workflow), please follow the following instructions:__
-* GT-1. Run gtex_overlap.py using CG-1 output and GTEx significant eQTL files path as input. Also name the path were the output files will be saved.
+* GT-1. Run `gtex_overlap.py` using CG-1 output and GTEx significant eQTL files path as input. Also name the path were the output files will be saved.
 
 __To generate the clinical/pharmacological analysis (step 3 of paper workflow), please follow the following instructions:__
-* CP-1. Run gwas_overlap.py using the GE-3 (gEUVADIS) or GT-1 (GTEx) output files as input.
+* CP-1. Run `gwas_overlap.py` using the GE-3 (gEUVADIS) or GT-1 (GTEx) output files as input.
+* CP-2. Run `pharmgkb_overlap.py` using the GE-3 (gEUVADIS) or GT-1 (GTEx) output files as input.
+
+__To generate the association networks analysis (step 3 of paper workflow), Cytoscape (referenced in the paper) was used importing CP-1 and CP-2 output files__
