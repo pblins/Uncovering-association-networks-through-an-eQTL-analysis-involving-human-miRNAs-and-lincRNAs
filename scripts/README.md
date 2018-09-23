@@ -11,7 +11,7 @@ __To generate the gEUVADIS analysis (step 2 of paper workflow), please follow th
 * GE-4. Run `geuvadis_eqtl.py` using the directory path of GE-3 output files as input.
 
 __To generate the GTEx analysis (step 2 of paper workflow), please follow the following instructions below:__
-* GT-1. Run `gtex_overlap.py` using CG-1 output and GTEx significant eQTL files path as input. Also name the path were the output files will be saved.
+* GT-1. Run `gtex_overlap.py` using CG-2 output and GTEx significant eQTL files path as input. Also name the path were the output files will be saved.
 
 __To generate the clinical/pharmacological analysis (step 3 of paper workflow), please follow the following instructions below:__
 * CP-1. Run `gwas_overlap.py` using the GE-3 (gEUVADIS) or GT-1 (GTEx) output files as input.
