@@ -1,8 +1,6 @@
 To generate the SNP catalog (step 1 of paper workflow), please follow the following instructions:
-
-CG-1. Get input data from public databases (check versions) used in the paper and convert to BED files.
-
-CG-2. Run catalog.py using dbSNP and Regulatory Region (miRNA, miRNA targets, lincRNA) BED files as input.
+* CG-1. Get input data from public databases (check versions) used in the paper and convert to BED files.
+* CG-2. Run catalog.py using dbSNP and Regulatory Region (miRNA, miRNA targets, lincRNA) BED files as input.
 
 To generate the gEUVADIS analysis (step 2 of paper workflow), please follow the following instructions:
 
