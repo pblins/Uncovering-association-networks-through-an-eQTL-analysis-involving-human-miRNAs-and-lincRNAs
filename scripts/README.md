@@ -17,4 +17,4 @@ __To generate the clinical/pharmacological analysis (step 3 of paper workflow), 
 * CP-1. Run `gwas_overlap.py` using the GE-4 (gEUVADIS) or GT-1 (GTEx) output files as input.
 * CP-2. Run `pharmgkb_overlap.py` using the GE-4 (gEUVADIS) or GT-1 (GTEx) output files as input.
 
-__To generate the association networks analysis (step 3 of paper workflow), CP-1 and CP-2 output files were imported into Cytoscape (referenced in the paper) software.__
+__To generate the association networks analysis (step 3 of paper workflow), CP-1 and CP-2 output files were imported into Cytoscape software (referenced in paper).__
