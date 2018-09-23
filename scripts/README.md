@@ -1,3 +1,5 @@
+# Uncovering association networks through an eQTL analysis involving human miRNAs and lincRNAs
+
 __To generate the SNP catalog (step 1 of paper workflow), please follow the following instructions:__
 * CG-1. Get input data from public databases (check versions) used in the paper and convert to BED files.
 * CG-2. Run catalog.py using dbSNP and Regulatory Region (miRNA, miRNA targets, lincRNA) BED files as input.
