@@ -14,7 +14,7 @@ __To generate the GTEx analysis (step 2 of paper workflow), please follow the fo
 * GT-1. Run `gtex_overlap.py` using CG-2 output and GTEx significant eQTL files path as input. Also name the path were the output files will be saved.
 
 __To generate the clinical/pharmacological analysis (step 3 of paper workflow), please follow the following instructions below:__
-* CP-1. Run `gwas_overlap.py` using the GE-3 (gEUVADIS) or GT-1 (GTEx) output files as input.
-* CP-2. Run `pharmgkb_overlap.py` using the GE-3 (gEUVADIS) or GT-1 (GTEx) output files as input.
+* CP-1. Run `gwas_overlap.py` using the GE-4 (gEUVADIS) or GT-1 (GTEx) output files as input.
+* CP-2. Run `pharmgkb_overlap.py` using the GE-4 (gEUVADIS) or GT-1 (GTEx) output files as input.
 
 __To generate the association networks analysis (step 3 of paper workflow), CP-1 and CP-2 output files were imported to Cytoscape (referenced in the paper) software.__
